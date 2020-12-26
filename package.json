@@ -1,0 +1,35 @@
+{
+  "name": "node-typescript-rest-api-demo",
+  "version": "1.0.0",
+  "description": "Rest API with node and typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mono93/node-typescript-rest-api-demo.git"
+  },
+  "keywords": [
+    "Node",
+    "Typescript",
+    "Rest",
+    "API"
+  ],
+  "author": "Monojit Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mono93/node-typescript-rest-api-demo/issues"
+  },
+  "homepage": "https://github.com/mono93/node-typescript-rest-api-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.16"
+  }
+}
